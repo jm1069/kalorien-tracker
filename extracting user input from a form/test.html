@@ -8,12 +8,14 @@
 </head>
 <body>
     <form>
-        <input type="text" name="First name">
-        <input type="text" name="Last name">
+        <input type="text" name="firstName" placeholder="Vorname">
+        <input type="text" name="lastName" placeholder="Nachname">
+        <input type="text" name="streetName" placeholder="Straße">
+        <input type="text" name="zipCode" placeholder="Postleitzahl">
         <button type="submit">Submit</button>
-      </form>
+    </form>
       
-      <script>
+    <script>
         
         const names = [];
         const form = document.querySelector('form');
@@ -33,6 +35,6 @@
           console.log(names);
         })
       
-      </script>
+    </script>
 </body>
 </html>
